@@ -2,4 +2,4 @@
 
 **An independent project by CNRCO**
 
-[Visit the YelloTrace website](https://bulutcnr.github.io/yellotrace/)
+[Visit the YelloTrace website](https://cnrco.github.io/yellotrace/)
