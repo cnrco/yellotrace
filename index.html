@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="YelloTrace is an independent project focused on evidence-led analysis of public-facing websites and online infrastructure.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>YelloTrace | Digital Surface Security Analysis</title>
+<style>
+  :root { --black:#000; --yellow:#f4c928; --paper:#e9e5d9; --muted:#b8b3a6; }
+  * { box-sizing:border-box; }
+  html { min-height:100%; background:var(--black); }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; background:var(--black); color:var(--paper); font-family:Arial,Helvetica,sans-serif; overflow-x:hidden; }
+  body::before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.12; z-index:0; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.32'/%3E%3C/svg%3E"); }
+  main { width:min(1040px,calc(100% - 64px)); padding:100px 0 48px; text-align:center; position:relative; z-index:1; }
+  .logo { display:block; width:min(390px,72vw); height:auto; margin:0 auto 48px; mix-blend-mode:screen; }
+  h1 { font-size:clamp(24px,4vw,34px); font-weight:600; letter-spacing:-.055em; margin:0 0 20px; }
+  h1 span { color:var(--yellow); }
+  .description { max-width:820px; margin:0 auto; font-size:16px; line-height:1.9; color:#d0cbbf; }
+  .paragraph-gap { margin-top:38px; }
+  .creator { margin:0 0 42px; color:#8a877e; font:9px Consolas,"Liberation Mono",monospace; letter-spacing:.13em; }
+  footer { margin:100px auto 0; padding-top:18px; border-top:1px solid rgba(233,229,217,.17); max-width:900px; color:#8a877e; font:10px/1.8 Consolas,"Liberation Mono",monospace; letter-spacing:.07em; }
+  footer nav { display:flex; justify-content:center; gap:24px; flex-wrap:wrap; margin-bottom:20px; }
+  a { color:var(--muted); text-decoration:underline; text-decoration-color:#625d4d; text-underline-offset:4px; }
+  a:hover, a:focus-visible { color:var(--yellow); }
+  @media(max-width:520px) { main { width:calc(100% - 36px); padding:62px 0 32px; } .logo { margin-bottom:36px; } .creator { margin-bottom:34px; } .description { font-size:14px; } .paragraph-gap { margin-top:30px; } footer { margin-top:64px; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.png" alt="YelloTrace symbol" width="1536" height="1024">
+  <h1>Yello<span>Trace</span></h1>
+  <div class="creator">AN INDEPENDENT PROJECT BY CNRCO</div>
+  <p class="description">YelloTrace is an independent cybersecurity project focused on digital surface security analysis. We examine the public-facing parts of websites and online infrastructure to identify potential exposures, visible misconfigurations, and security signals that may deserve closer attention.</p>
+  <p class="description paragraph-gap">The goal is to make external security easier to understand. Through careful observation and evidence-led analysis, YelloTrace aims to help website owners recognise what is visible from the outside and where further verification or improvement may be useful.</p>
+  <p class="description paragraph-gap">Any review should have a clearly defined scope and appropriate authorisation. Findings should be described carefully, supported by evidence, and should not overstate what an external observation can establish.</p>
+  <footer>
+    <nav aria-label="Legal information"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms and conditions</a></nav>
+    <div>SECURITY IS A FUNDAMENTAL RIGHT</div>
+  </footer>
+</main>
+</body>
+</html>
